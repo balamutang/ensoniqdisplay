@@ -8,3 +8,6 @@ General idea is listen serial data (7n1  62500 bit/s) between ensoniq mainboard 
 Ensoniq send big data blocks (more than 64bytes) so arduino need patch to enlarge receive buffer (in C:\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h add first definition #define SERIAL_RX_BUFFER_SIZE 128 ), without this display data will be broken
 
 all other things about connection display to arduino you can found at many internet guides
+
+
+https://www.facebook.com/displaynsoniq/
